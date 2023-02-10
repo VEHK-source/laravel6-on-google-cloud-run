@@ -5,9 +5,11 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
-        "php": "^8.0.2",
+        "php": "^5.3.2 || ^7.0",
         "guzzlehttp/guzzle": "^7.2",
-        "laravel/framework": "^9.19",
+        "laravel/framework": "^v9.19.0||^v9.51.0",
+        "laravel/pint": "^v1.0.0||^v1.4.1",
+        
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7"
     },
@@ -53,6 +55,11 @@
         }
     },
     "config": {
+        "platform": {
+
+            "php": "^5.3.2 || ^7.0"
+        
+          },
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
